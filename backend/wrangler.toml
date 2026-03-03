@@ -1,0 +1,12 @@
+name = "breakfast-pos-backend"
+main = "src/index.py"
+compatibility_date = "2024-04-05"
+compatibility_flags = ["python_workers"]
+
+[vars]
+# Environment variables can be added here
+
+[[d1_databases]]
+binding = "breakfast_pos_db"
+database_name = "breakfast-pos-db"
+database_id = "ad7442ec-48de-4f17-b155-e0c898bd2943"
