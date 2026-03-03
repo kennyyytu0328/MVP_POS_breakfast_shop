@@ -19,6 +19,7 @@ id_dsa*
 .wrangler/
 wrangler.toml.local
 *.wrangler-backup
+**/node_modules/
 
 # Backend Python
 __pycache__/
